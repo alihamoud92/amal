@@ -1,0 +1,47 @@
+.input_c {
+  border: solid 2px #00725E;
+  border-radius: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 18px;
+  margin-top: 12px;
+  width: 100%;
+  text-align: end;
+  font-size: large;
+  background-color: #eeee;
+}
+
+.btn {
+  border-radius: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 18px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  --tw-gradient-from: #7db2db var(--tw-gradient-from-position);
+  --tw-gradient-to: #7b8fc0 var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+ol {
+  list-style-type: decimal;
+  direction: rtl;
+}
+
+.mid {
+  background-color: gray;
+  direction: rtl;
+}
+.middd {
+  background-color: #00725e;
+  width: 90%;
+  direction: ltr;
+}
+ul a li.active {
+  color: white !important;
+  background-color: #325dde;
+}
